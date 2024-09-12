@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class rand {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+while(true){ //PRE ADD NI
         int rand = (int) (Math.random() * 11);
         int guess;
 
@@ -22,8 +22,10 @@ public class rand {
             
         } while (guess != rand);
         if (guess == rand) {
-            System.out.println("The computer picked "+rand);
+            System.out.println("The computer picked " + rand);
+            System.out.println("Starting a new game...\n");
         }
     }
+}
 }
 //ikaw mapakot sang rand
