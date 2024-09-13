@@ -13,7 +13,7 @@ char yn = 'y';
     while(yn!='y' && yn!='n'){
         cout<<"Please enter 'y' or 'n' only:";
         cin>>yn;
-    }
+    }   
     if(yn=='y'){
         main();
     }
