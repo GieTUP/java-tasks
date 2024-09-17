@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "matrix",
+      "request": "launch",
+      "mainClass": "matrix",
+      "projectName": "AG EVANGELISTA JAVA_7debb385"
+    },
+    {
+      "type": "java",
       "name": "randname",
       "request": "launch",
       "mainClass": "randname",
