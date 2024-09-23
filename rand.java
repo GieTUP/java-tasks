@@ -15,6 +15,7 @@ public class rand {
             confirmation = input.nextInt();
             if (confirmation == 1) {} 
             else if (confirmation != 1) {
+                System.out.println("Exiting program...");
                 System.exit(0);
             }
             while (lives > 0) {
